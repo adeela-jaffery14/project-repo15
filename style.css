@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     width: auto;
-    background-color: #334E58;
+    background-color: #E3DBC5;
 }
 
 .grid-container { 
@@ -18,7 +18,7 @@ body {
     height: auto;
     grid-template-columns: 10px 50px 640px 50px 10px;
     grid-template-rows: 10px 370px 20px 640px 40px;
-    background-color: #334E58;
+    background-color: #E3DBC5;
     border-radius: 7px;
 }
 
@@ -31,43 +31,42 @@ body {
 }
 
 h1 { 
-    color: #F0F8FF;
+    color: #334E58;
 }
 
 h4 { 
-    color: #F0F8FF;
+    color: #334E58;
 }
 
 .images { 
     height: 640px;
     width: 640px;
     margin-top: auto;
-    background-color: aliceblue;
+    background-color: #506870;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     grid-area: 4 / 3 / 5 / 4;
-    border-radius: 10px;
-    
+    border-radius: 7px;
 }
+/*#F0F8FF;*/
 
 img { 
     width: 500px;
     height: 500px;
     object-fit: cover;
     border-radius: 4px;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 
 .image-carousel { 
     overflow: hidden;
-    height: 555px;
-    width: 510px;
-    background-color: aliceblue;
-    border: aliceblue 2px solid;
+    height: 560px;
+    width: 500px;
+    background-color:#506870;
+    border: #E3DBC5 5px solid;
+    border-radius: 5px;
 }
 
 .image-container { 
@@ -77,7 +76,7 @@ img {
     transform: translateX(0);
     transition: transform 0.5s ease-in;
     margin-bottom: 5px;
-    background-color: aliceblue;
+    background-color: #506870;
 }
 
 .btn-container { 
@@ -86,17 +85,18 @@ img {
 }
 
 .btn { 
-    background-color:#334E58;
-    color: #F0F8FF;
+    background-color:#E3DBC5;
+    color: #334E58;
     padding: 8px;
     width: 47.5%;
     border: none;
-    opacity: 82%;
+    opacity: 86%;
     border-radius: 5px;
+    border: rgba(227, 219, 197, 1) 0.5px solid;
 }
 
 #left { 
-    margin-left: 5px;
+    margin-left: 1px;
 }
 
 .btn:hover { 

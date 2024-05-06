@@ -9,7 +9,7 @@ let currentIndex = 0
 function showImage(index) { 
     img.forEach((image, i) => {
         if (i === index) { 
-            img_container.style.transform = "translateX(" + (index * -510) + "px)";  
+            img_container.style.transform = "translateX(" + (index * -500) + "px)";  
         }
     });
 }
