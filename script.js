@@ -15,19 +15,19 @@ function showImage(index) {
 }
 
 function goNext() { 
-    if (currentIndex < img.length - 1) { 
-        currentIndex = currentIndex + 1
-    } else if (currentIndex > img.length - 1) { 
+    if (currentIndex > img.length - 1) { 
         next.disabled = true;
+    } else if (currentIndex < img.length - 1) { 
+        currentIndex++;
     }
     showImage(currentIndex);
 }
 
 function goPrev() { 
-    if (currentIndex <= img.length - 1) { 
-        currentIndex = currentIndex - 1
-    } else if (currentIndex == 0) { 
+    if (currentIndex === 0) { 
         prev.disabled = true;
+    } else if (currentIndex <= img.length - 1) { 
+        currentIndex--;
     }
     showImage(currentIndex);
 }
