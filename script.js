@@ -15,7 +15,7 @@ function showImage(index) {
 }
 
 function goNext() { 
-    if (currentIndex > img.length - 1) { 
+    if (currentIndex > img.length) { 
         next.disabled = true;
     } else if (currentIndex < img.length - 1) { 
         currentIndex++;
